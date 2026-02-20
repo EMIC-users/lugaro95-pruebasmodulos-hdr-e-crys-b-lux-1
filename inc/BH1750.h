@@ -1,6 +1,8 @@
 #ifndef BH1750_H_
 #define BH1750_H_
 
+#include <stdint.h>
+
 #define  BH1750_CMD_power_down              0x00
 #define  BH1750_CMD_power_up                0x01
 #define  BH1750_CMD_reset                   0x07

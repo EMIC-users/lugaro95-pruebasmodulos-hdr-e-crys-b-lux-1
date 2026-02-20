@@ -30,23 +30,11 @@ void init_EMICfb (void);
 void poll_fieldBusTransport(void);
 
 extern uint8_t received_ID;
-#ifdef CTR_Master
-extern uint8_t My_ID;
-extern uint8_t sensor_Qty;
-extern uint32_t last_poll;
-extern uint32_t last_new;
-extern uint8_t sensor_polled;
-#endif
 
-#ifdef CRYS_Slave
 extern uint8_t My_ID;
-#endif
 
 void empty_buffer(void);
 
-#ifdef CTR_Master
-void poll_sensors(void);
-#endif
 
 void send_fbTransport(void);
 

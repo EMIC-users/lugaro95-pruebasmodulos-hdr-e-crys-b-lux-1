@@ -44,7 +44,6 @@
 // Click board interface pin definitions
 
 // Crystal slave mode definition
-#define CRYS_Slave
 
 // Board name definition
 #define TRIS_BH1750_RST	                _TRISB13

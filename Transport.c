@@ -50,17 +50,8 @@ stream_t fieldBusOutStream =
 uint16_t Transport_frame_count = 0;
 
 uint8_t received_ID = 0;
-#ifdef CTR_Master
-uint8_t My_ID = 1;
-uint8_t sensor_Qty = 0;
-uint32_t last_poll = 0;
-uint32_t last_new = 0;
-uint8_t sensor_polled = 1;
-#endif
 
-#ifdef CRYS_Slave
 uint8_t My_ID;
-#endif
 
 // UART RX callback: pushes received bytes to FIFO and detects frames
 void Transport_rx_callback(char d)
@@ -161,40 +152,4 @@ void empty_buffer(void)   //empty UART buffer
 	return;
 }
 
-#ifdef CTR_Master
-
-void poll_sensors(void)			// send permission to talk
-{
-	if (U1STAbits.RIDLE) 		//If reception is idle
-	{
-		uint8_t timeout = 0;
-		uint8_t received = 0;
-		if (sensor_Qty)
-		{
-			if (received_ID == sensor_polled)			//if last sensor responded
-			{
-				received = 1;
-				received_ID = 0;
-
-			}
-			if (getSystemMilis() - last_poll > SENSOR_TIMEOUT)	// if last sensor don't respond on time
-			{
-				timeout = 1;
-			}
-			if (timeout || received)			//either last sensor responded or timed out
-			{
-				sensor_polled++;					//ask next sensor
-				if (sensor_polled > sensor_Qty)		//restart count if end reached
-					sensor_polled = 1;
-				UART1_OUT_push(0);
-				UART1_OUT_push(sensor_polled);
-				UART1_OUT_push(FrameLf);
-				last_poll = getSystemMilis();
-			}
-		}
-	}
-
-}
-
-#endif
 

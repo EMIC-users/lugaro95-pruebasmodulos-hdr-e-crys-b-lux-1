@@ -31,7 +31,6 @@ int main(void)
 		LEDs_Led2_poll();
 		LEDs_Led3_poll();
 		poll_fieldBusTransport();
-		poll_sensors();
 		poll_EMICfb();
 		lux_pull();
 	}

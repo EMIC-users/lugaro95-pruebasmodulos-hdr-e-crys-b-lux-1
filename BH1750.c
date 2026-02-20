@@ -2,11 +2,12 @@
 #include "inc/gpio.h"
 #include "inc/I2C1.h"
 #include "inc/systemTimer.h"
+#include "inc/system.h"
 #include <libpic30.h>
 
 uint16_t Intensity = 0;
 uint8_t error_code_Lux = 0;
-uint32_t BH1750_getSystemMilis() = 0;
+uint32_t BH1750_timeStamp = 0;
 
 void lux_init()
 {
@@ -43,13 +44,13 @@ void lux_init()
 		error_code_Lux = 3;
 	}
 	Stop_I2C1();
-	BH1750_getSystemMilis() = getSystemMilis();
+	BH1750_timeStamp = getSystemMilis();
 }
 
 void lux_pull(void)
 {
 	uint32_t temp;
-	if (BH1750_getSystemMilis() + 200 <= getSystemMilis())
+	if (BH1750_timeStamp + 200 <= getSystemMilis())
 	{
 		Start_I2C1();
 		Write_I2C1(BH1750_I2CADDR_R);
@@ -90,7 +91,7 @@ void lux_pull(void)
 		}
 		Stop_I2C1();
 
-		BH1750_getSystemMilis() = getSystemMilis();
+		BH1750_timeStamp = getSystemMilis();
 	}
 }
 
