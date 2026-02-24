@@ -112,7 +112,7 @@ void poll_fieldBusTransport()
 		while(UART1_IN_count()) //else store the message on internal buffer (sends from UART to IN buffer)
 		{
 			data = UART1_IN_pop();
-			if (data == FrameLf) break;
+			//if (data == FrameLf) break;
 			streamPush(&fieldBusInStream, data);
 		}
 		if (fieldBusInStream.data_count_entr)

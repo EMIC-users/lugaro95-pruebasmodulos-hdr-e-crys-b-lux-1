@@ -247,15 +247,15 @@ Default Scalar Model: Small
 
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
-.text                        0x200              0x4466          0x6699  (26265)
-.const                      0x4666                0x1e            0x2d  (45)
-.text                       0x4684               0xd72          0x142b  (5163)
-.dinit                      0x53f6                0xe4           0x156  (342)
-.text                       0x54da               0x2d0           0x438  (1080)
-.init.delay32               0x57aa                0x1c            0x2a  (42)
-.text                       0x57c6                0x16            0x21  (33)
+.text                        0x200              0x447a          0x66b7  (26295)
+.const                      0x467a                0x1e            0x2d  (45)
+.text                       0x4698               0xd72          0x142b  (5163)
+.dinit                      0x540a                0xe4           0x156  (342)
+.text                       0x54ee               0x2d0           0x438  (1080)
+.init.delay32               0x57be                0x1c            0x2a  (42)
+.text                       0x57da                0x16            0x21  (33)
 
-                 Total "program" memory used (bytes):         0x80ca  (32970) 50%
+                 Total "program" memory used (bytes):         0x80e8  (33000) 50%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x2000]
@@ -331,420 +331,420 @@ External Symbols in Program Memory (by address):
                   0x0002ec                  __T4Interrupt
                   0x000314                  __U1TXInterrupt
                   0x000356                  __U1RXInterrupt
-                  0x000382                  __SI2C1Interrupt
-                  0x000396                  __MI2C1Interrupt
-                  0x0003aa                  __DefaultInterrupt
-                  0x0003b0                  ___fixunssfsi
-                  0x0003e6                  ___floatunsisf
-                  0x0003ea                  __funpack
-                  0x000414                  ___udivsi3
-                  0x000434                  ___subsf3
-                  0x000434                  ___subsf3x
-                  0x000446                  ___addsf3
-                  0x000446                  ___addsf3x
-                  0x000610                  ___divsf3x
-                  0x000610                  ___divsf3
-                  0x0007a2                  __sdivf
-                  0x0007ce                  __dnrmpackf
-                  0x000822                  __typef
-                  0x000856                  __propnanf
-                  0x000868                  __spackf
-                  0x00090e                  __unpackf
-                  0x000974                  ___floatundisf
-                  0x0009d2                  __fpack
-                  0x000a1e                  _atof
-                  0x000a36                  _atoi
-                  0x000a96                  _atol
-                  0x000afe                  _atoll
-                  0x000b62                  _memset
-                  0x000c2a                  _snprintf
-                  0x000c36                  _strncmp
-                  0x000cb8                  _strtof
-                  0x000cbe                  _strtod
-                  0x000cc4                  _strtold
-                  0x000cc8                  _vsnprintf
-                  0x001cd2                  ___floatscan
-                  0x001efe                  ___shlim
-                  0x001f48                  ___shgetc
-                  0x002078                  _vfprintf
-                  0x002094                  ___pop_float
-                  0x0020d2                  ___pop_int
-                  0x00217a                  ___pop_ptr
-                  0x002210                  ___pad
-                  0x00228a                  ___fmt_state
-                  0x00258e                  ___printf_core
-                  0x0025ce                  ___uflow
-                  0x0025f8                  _memcpy
-                  0x002606                  _strlen
-                  0x002636                  _tolower
-                  0x002642                  ___tolower_l
-                  0x002646                  ___fmt_a
-                  0x002b8a                  ___fmt_d
-                  0x002c3e                  ___fmt_fp
-                  0x0031f4                  ___fmt_o
-                  0x00325e                  ___fmt_s
-                  0x0032b2                  ___cvt_u
-                  0x003358                  ___fmt_u
-                  0x0033aa                  ___fmt_x
-                  0x0034f4                  ___toread
-                  0x00353c                  ___toread_needs_stdio_exit
-                  0x00353e                  _strcpy
-                  0x00354c                  _toupper
-                  0x003558                  ___toupper_l
-                  0x00355e                  ___stdio_exit
-                  0x003572                  ___stpcpy
-                  0x0035b2                  ___ledf2
-                  0x0035b2                  ___eqdf2
-                  0x0035b2                  ___ltdf2
-                  0x0035bc                  ___gedf2
-                  0x0035bc                  ___gtdf2
-                  0x0035c6                  ___divsi3
-                  0x0035e4                  ___nedf2
-                  0x0035ee                  ___extendsfdf2
-                  0x00362c                  ___fixdfsi
-                  0x003684                  ___floatsidf
-                  0x00368a                  ___floatsisf
-                  0x003690                  ___floatunsidf
-                  0x003694                  ___truncdfsf2
-                  0x0036ea                  ___umodsi3
-                  0x0036f0                  ___mulp32eds3
-                  0x0036f0                  ___mulp32peds3
-                  0x0036f0                  ___mulsi3
-                  0x0036fc                  ___subdf3
-                  0x003708                  ___adddf3
-                  0x00379e                  ___divdf3
-                  0x0038fc                  ___muldf3
-                  0x003a30                  __dxchg
-                  0x003a3e                  __drshft
-                  0x003a98                  __dupchk
-                  0x003afa                  __drndex
-                  0x003b04                  __dnsrnd
-                  0x003b30                  __dpakex
-                  0x003b3e                  ___mulsf3
-                  0x003b3e                  ___mulsf3x
-                  0x003c4a                  __unpackdnrmf
-                  0x003cf4                  ___udivmoddi3
-                  0x003dda                  ___udivdi3
-                  0x003de8                  ___umoddi3
-                  0x003df0                  ___divdi3
-                  0x003e50                  ___moddi3
-                  0x003eac                  ___muldi3
-                  0x003efe                  __dcompare
-                  0x003f50                  __dtype
-                  0x003f74                  __dunpack
-                  0x003fc2                  __dunpack2
-                  0x003fe4                  __dreturnNaN
-                  0x003fea                  __dunpack2exit
-                  0x003ff4                  ___floatdidf
-                  0x004014                  ___floatdisf
-                  0x004034                  ___floatundidf
-                  0x00408a                  ___umuldi3
-                  0x0040ce                  __dpack
-                  0x004126                  __dPropagateNaN
-                  0x004142                  _copysignl
-                  0x004176                  _fabsl
-                  0x00418c                  _floorl
-                  0x004286                  _fmodl
-                  0x0045b2                  _scalbnf
-                  0x004606                  _scalbnl
-                  0x004674                  _streamIn_Uart1
-                  0x004678                  _streamOut_Uart1
-                  0x00467c                  _streamIn_fieldBus
-                  0x004680                  _streamOut_fieldBus
-                  0x004684                  _streamIn_t_ptr_to_float
-                  0x0046c0                  _streamIn_t_ptr_to_char
-                  0x0046fa                  _streamIn_t_ptr_to_uint8_t
-                  0x004738                  _streamIn_t_ptr_to_uint16_t
-                  0x004774                  _streamIn_t_ptr_to_uint32_t
-                  0x0047b0                  _streamIn_t_ptr_to_uint64
-                  0x0047ec                  _streamIn_t_ptr_to_int8_t
-                  0x00482a                  _streamIn_t_ptr_to_int16_t
-                  0x004866                  _streamIn_t_ptr_to_int32_t
-                  0x0048a2                  _streamIn_t_ptr_to_int64_t
-                  0x0048de                  _streamIn_t_ptr_to_ascii
-                  0x00491e                  _sendDataToStream
-                  0x004c1c                  _UART1_init_fifo
-                  0x004c36                  _UART1_is_empty
-                  0x004c4a                  _UART1_is_full
-                  0x004c64                  _UART1_count
-                  0x004c70                  _UART1_push
-                  0x004cc6                  _UART1_pop
-                  0x004cfc                  _UART1_peek
-                  0x004d1a                  _UART1_simplexMode
-                  0x004d26                  _UART1_flowControl
-                  0x004d4a                  _UART1_invert
-                  0x004d7c                  _UART1_bd
-                  0x004e38                  _UART1_init
-                  0x004e94                  _UART1_OFF
-                  0x004ea2                  _UART1_ON
-                  0x004eb8                  _UART1_IN_pop
-                  0x004ec2                  _UART1_IN_count
-                  0x004eca                  _UART1_OUT_push
-                  0x004ed8                  _UART1_OUT_count
-                  0x004ee4                  _streamPushCtr
-                  0x004f32                  _streamPush
-                  0x004f6c                  _streamPop
-                  0x004fa4                  _streamOpenWriteFrame
-                  0x004fe6                  _streamOpenReadFrame
-                  0x005032                  _streamReOpenReadFrame
-                  0x00504a                  _streamCloseReadFrame
-                  0x005074                  _lux_init
-                  0x0050f6                  _lux_pull
-                  0x0051c0                  _Init_Master_I2C1
-                  0x005228                  _CollisionReset_I2C1
-                  0x005230                  _OverflowReset_I2C1
-                  0x005238                  _IsStartI2c1
-                  0x005244                  _IsCollisionDetectI2c1
-                  0x005250                  _IsStopI2c1
-                  0x00525c                  _IsReceiveBufferFullI2c1
-                  0x005268                  _IsDataOrAddressI2c1
-                  0x005274                  _IsReceiveOverflowI2c1
-                  0x005280                  _Start_I2C1
-                  0x005292                  _Stop_I2C1
-                  0x0052a4                  _Write_I2C1
-                  0x0052bc                  _Read_I2C1
-                  0x0052f4                  _Transport_rx_callback
-                  0x00530e                  _init_EMICfb
-                  0x005320                  _poll_fieldBusTransport
-                  0x0053a4                  _send_fbTransport
-                  0x0053e4                  _empty_buffer
-                  0x0054da                  _emicFBp
-                  0x0054f2                  _poll_EMICfb
-                  0x005546                  _getBusStreamIn
-                  0x005550                  _countBusStreamIn
-                  0x005558                  _setBusStreamOut
-                  0x005568                  _countBusStreamOut
-                  0x005570                  _LEDs_Led1_init
-                  0x005578                  _LEDs_Led1_blink
-                  0x005598                  _LEDs_Led1_poll
-                  0x0055f6                  _LEDs_Led2_init
-                  0x0055fe                  _LEDs_Led2_blink
-                  0x00561e                  _LEDs_Led2_poll
-                  0x00567c                  _LEDs_Led3_init
-                  0x005684                  _LEDs_Led3_blink
-                  0x0056a4                  _LEDs_Led3_poll
-                  0x005702                  _SystemConfig
-                  0x00570c                  _onReset
-                  0x00572a                  _emicFBe
-                  0x005754                  _initSystem
-                  0x005762                  _main
-                  0x005784                  _getSystemMilis
-                  0x00578e                  _callback
-                  0x0057a0                  _systemTimeInit
-                  0x0057aa                  ___delay32
-                  0x0057c6                  _timer4_init
+                  0x000396                  __SI2C1Interrupt
+                  0x0003aa                  __MI2C1Interrupt
+                  0x0003be                  __DefaultInterrupt
+                  0x0003c4                  ___fixunssfsi
+                  0x0003fa                  ___floatunsisf
+                  0x0003fe                  __funpack
+                  0x000428                  ___udivsi3
+                  0x000448                  ___subsf3
+                  0x000448                  ___subsf3x
+                  0x00045a                  ___addsf3
+                  0x00045a                  ___addsf3x
+                  0x000624                  ___divsf3x
+                  0x000624                  ___divsf3
+                  0x0007b6                  __sdivf
+                  0x0007e2                  __dnrmpackf
+                  0x000836                  __typef
+                  0x00086a                  __propnanf
+                  0x00087c                  __spackf
+                  0x000922                  __unpackf
+                  0x000988                  ___floatundisf
+                  0x0009e6                  __fpack
+                  0x000a32                  _atof
+                  0x000a4a                  _atoi
+                  0x000aaa                  _atol
+                  0x000b12                  _atoll
+                  0x000b76                  _memset
+                  0x000c3e                  _snprintf
+                  0x000c4a                  _strncmp
+                  0x000ccc                  _strtof
+                  0x000cd2                  _strtod
+                  0x000cd8                  _strtold
+                  0x000cdc                  _vsnprintf
+                  0x001ce6                  ___floatscan
+                  0x001f12                  ___shlim
+                  0x001f5c                  ___shgetc
+                  0x00208c                  _vfprintf
+                  0x0020a8                  ___pop_float
+                  0x0020e6                  ___pop_int
+                  0x00218e                  ___pop_ptr
+                  0x002224                  ___pad
+                  0x00229e                  ___fmt_state
+                  0x0025a2                  ___printf_core
+                  0x0025e2                  ___uflow
+                  0x00260c                  _memcpy
+                  0x00261a                  _strlen
+                  0x00264a                  _tolower
+                  0x002656                  ___tolower_l
+                  0x00265a                  ___fmt_a
+                  0x002b9e                  ___fmt_d
+                  0x002c52                  ___fmt_fp
+                  0x003208                  ___fmt_o
+                  0x003272                  ___fmt_s
+                  0x0032c6                  ___cvt_u
+                  0x00336c                  ___fmt_u
+                  0x0033be                  ___fmt_x
+                  0x003508                  ___toread
+                  0x003550                  ___toread_needs_stdio_exit
+                  0x003552                  _strcpy
+                  0x003560                  _toupper
+                  0x00356c                  ___toupper_l
+                  0x003572                  ___stdio_exit
+                  0x003586                  ___stpcpy
+                  0x0035c6                  ___ledf2
+                  0x0035c6                  ___eqdf2
+                  0x0035c6                  ___ltdf2
+                  0x0035d0                  ___gedf2
+                  0x0035d0                  ___gtdf2
+                  0x0035da                  ___divsi3
+                  0x0035f8                  ___nedf2
+                  0x003602                  ___extendsfdf2
+                  0x003640                  ___fixdfsi
+                  0x003698                  ___floatsidf
+                  0x00369e                  ___floatsisf
+                  0x0036a4                  ___floatunsidf
+                  0x0036a8                  ___truncdfsf2
+                  0x0036fe                  ___umodsi3
+                  0x003704                  ___mulp32eds3
+                  0x003704                  ___mulp32peds3
+                  0x003704                  ___mulsi3
+                  0x003710                  ___subdf3
+                  0x00371c                  ___adddf3
+                  0x0037b2                  ___divdf3
+                  0x003910                  ___muldf3
+                  0x003a44                  __dxchg
+                  0x003a52                  __drshft
+                  0x003aac                  __dupchk
+                  0x003b0e                  __drndex
+                  0x003b18                  __dnsrnd
+                  0x003b44                  __dpakex
+                  0x003b52                  ___mulsf3
+                  0x003b52                  ___mulsf3x
+                  0x003c5e                  __unpackdnrmf
+                  0x003d08                  ___udivmoddi3
+                  0x003dee                  ___udivdi3
+                  0x003dfc                  ___umoddi3
+                  0x003e04                  ___divdi3
+                  0x003e64                  ___moddi3
+                  0x003ec0                  ___muldi3
+                  0x003f12                  __dcompare
+                  0x003f64                  __dtype
+                  0x003f88                  __dunpack
+                  0x003fd6                  __dunpack2
+                  0x003ff8                  __dreturnNaN
+                  0x003ffe                  __dunpack2exit
+                  0x004008                  ___floatdidf
+                  0x004028                  ___floatdisf
+                  0x004048                  ___floatundidf
+                  0x00409e                  ___umuldi3
+                  0x0040e2                  __dpack
+                  0x00413a                  __dPropagateNaN
+                  0x004156                  _copysignl
+                  0x00418a                  _fabsl
+                  0x0041a0                  _floorl
+                  0x00429a                  _fmodl
+                  0x0045c6                  _scalbnf
+                  0x00461a                  _scalbnl
+                  0x004688                  _streamIn_Uart1
+                  0x00468c                  _streamOut_Uart1
+                  0x004690                  _streamIn_fieldBus
+                  0x004694                  _streamOut_fieldBus
+                  0x004698                  _streamIn_t_ptr_to_float
+                  0x0046d4                  _streamIn_t_ptr_to_char
+                  0x00470e                  _streamIn_t_ptr_to_uint8_t
+                  0x00474c                  _streamIn_t_ptr_to_uint16_t
+                  0x004788                  _streamIn_t_ptr_to_uint32_t
+                  0x0047c4                  _streamIn_t_ptr_to_uint64
+                  0x004800                  _streamIn_t_ptr_to_int8_t
+                  0x00483e                  _streamIn_t_ptr_to_int16_t
+                  0x00487a                  _streamIn_t_ptr_to_int32_t
+                  0x0048b6                  _streamIn_t_ptr_to_int64_t
+                  0x0048f2                  _streamIn_t_ptr_to_ascii
+                  0x004932                  _sendDataToStream
+                  0x004c30                  _UART1_init_fifo
+                  0x004c4a                  _UART1_is_empty
+                  0x004c5e                  _UART1_is_full
+                  0x004c78                  _UART1_count
+                  0x004c84                  _UART1_push
+                  0x004cda                  _UART1_pop
+                  0x004d10                  _UART1_peek
+                  0x004d2e                  _UART1_simplexMode
+                  0x004d3a                  _UART1_flowControl
+                  0x004d5e                  _UART1_invert
+                  0x004d90                  _UART1_bd
+                  0x004e4c                  _UART1_init
+                  0x004ea8                  _UART1_OFF
+                  0x004eb6                  _UART1_ON
+                  0x004ecc                  _UART1_IN_pop
+                  0x004ed6                  _UART1_IN_count
+                  0x004ede                  _UART1_OUT_push
+                  0x004eec                  _UART1_OUT_count
+                  0x004ef8                  _streamPushCtr
+                  0x004f46                  _streamPush
+                  0x004f80                  _streamPop
+                  0x004fb8                  _streamOpenWriteFrame
+                  0x004ffa                  _streamOpenReadFrame
+                  0x005046                  _streamReOpenReadFrame
+                  0x00505e                  _streamCloseReadFrame
+                  0x005088                  _lux_init
+                  0x00510a                  _lux_pull
+                  0x0051d4                  _Init_Master_I2C1
+                  0x00523c                  _CollisionReset_I2C1
+                  0x005244                  _OverflowReset_I2C1
+                  0x00524c                  _IsStartI2c1
+                  0x005258                  _IsCollisionDetectI2c1
+                  0x005264                  _IsStopI2c1
+                  0x005270                  _IsReceiveBufferFullI2c1
+                  0x00527c                  _IsDataOrAddressI2c1
+                  0x005288                  _IsReceiveOverflowI2c1
+                  0x005294                  _Start_I2C1
+                  0x0052a6                  _Stop_I2C1
+                  0x0052b8                  _Write_I2C1
+                  0x0052d0                  _Read_I2C1
+                  0x005308                  _ISR_UART1_CALLBACK
+                  0x005322                  _init_EMICfb
+                  0x005334                  _poll_fieldBusTransport
+                  0x0053b8                  _send_fbTransport
+                  0x0053f8                  _empty_buffer
+                  0x0054ee                  _emicFBp
+                  0x005506                  _poll_EMICfb
+                  0x00555a                  _getBusStreamIn
+                  0x005564                  _countBusStreamIn
+                  0x00556c                  _setBusStreamOut
+                  0x00557c                  _countBusStreamOut
+                  0x005584                  _LEDs_Led1_init
+                  0x00558c                  _LEDs_Led1_blink
+                  0x0055ac                  _LEDs_Led1_poll
+                  0x00560a                  _LEDs_Led2_init
+                  0x005612                  _LEDs_Led2_blink
+                  0x005632                  _LEDs_Led2_poll
+                  0x005690                  _LEDs_Led3_init
+                  0x005698                  _LEDs_Led3_blink
+                  0x0056b8                  _LEDs_Led3_poll
+                  0x005716                  _SystemConfig
+                  0x005720                  _onReset
+                  0x00573e                  _emicFBe
+                  0x005768                  _initSystem
+                  0x005776                  _main
+                  0x005798                  _getSystemMilis
+                  0x0057a2                  _callback
+                  0x0057b4                  _systemTimeInit
+                  0x0057be                  ___delay32
+                  0x0057da                  _timer4_init
 
 External Symbols in Program Memory (by name):
 
-                  0x005228                  _CollisionReset_I2C1
-                  0x0051c0                  _Init_Master_I2C1
-                  0x005244                  _IsCollisionDetectI2c1
-                  0x005268                  _IsDataOrAddressI2c1
-                  0x00525c                  _IsReceiveBufferFullI2c1
-                  0x005274                  _IsReceiveOverflowI2c1
-                  0x005238                  _IsStartI2c1
-                  0x005250                  _IsStopI2c1
-                  0x005578                  _LEDs_Led1_blink
-                  0x005570                  _LEDs_Led1_init
-                  0x005598                  _LEDs_Led1_poll
-                  0x0055fe                  _LEDs_Led2_blink
-                  0x0055f6                  _LEDs_Led2_init
-                  0x00561e                  _LEDs_Led2_poll
-                  0x005684                  _LEDs_Led3_blink
-                  0x00567c                  _LEDs_Led3_init
-                  0x0056a4                  _LEDs_Led3_poll
-                  0x005230                  _OverflowReset_I2C1
-                  0x0052bc                  _Read_I2C1
-                  0x005280                  _Start_I2C1
-                  0x005292                  _Stop_I2C1
-                  0x005702                  _SystemConfig
-                  0x0052f4                  _Transport_rx_callback
-                  0x004ec2                  _UART1_IN_count
-                  0x004eb8                  _UART1_IN_pop
-                  0x004e94                  _UART1_OFF
-                  0x004ea2                  _UART1_ON
-                  0x004ed8                  _UART1_OUT_count
-                  0x004eca                  _UART1_OUT_push
-                  0x004d7c                  _UART1_bd
-                  0x004c64                  _UART1_count
-                  0x004d26                  _UART1_flowControl
-                  0x004e38                  _UART1_init
-                  0x004c1c                  _UART1_init_fifo
-                  0x004d4a                  _UART1_invert
-                  0x004c36                  _UART1_is_empty
-                  0x004c4a                  _UART1_is_full
-                  0x004cfc                  _UART1_peek
-                  0x004cc6                  _UART1_pop
-                  0x004c70                  _UART1_push
-                  0x004d1a                  _UART1_simplexMode
-                  0x0052a4                  _Write_I2C1
-                  0x0003aa                  __DefaultInterrupt
-                  0x000396                  __MI2C1Interrupt
-                  0x000382                  __SI2C1Interrupt
+                  0x00523c                  _CollisionReset_I2C1
+                  0x005308                  _ISR_UART1_CALLBACK
+                  0x0051d4                  _Init_Master_I2C1
+                  0x005258                  _IsCollisionDetectI2c1
+                  0x00527c                  _IsDataOrAddressI2c1
+                  0x005270                  _IsReceiveBufferFullI2c1
+                  0x005288                  _IsReceiveOverflowI2c1
+                  0x00524c                  _IsStartI2c1
+                  0x005264                  _IsStopI2c1
+                  0x00558c                  _LEDs_Led1_blink
+                  0x005584                  _LEDs_Led1_init
+                  0x0055ac                  _LEDs_Led1_poll
+                  0x005612                  _LEDs_Led2_blink
+                  0x00560a                  _LEDs_Led2_init
+                  0x005632                  _LEDs_Led2_poll
+                  0x005698                  _LEDs_Led3_blink
+                  0x005690                  _LEDs_Led3_init
+                  0x0056b8                  _LEDs_Led3_poll
+                  0x005244                  _OverflowReset_I2C1
+                  0x0052d0                  _Read_I2C1
+                  0x005294                  _Start_I2C1
+                  0x0052a6                  _Stop_I2C1
+                  0x005716                  _SystemConfig
+                  0x004ed6                  _UART1_IN_count
+                  0x004ecc                  _UART1_IN_pop
+                  0x004ea8                  _UART1_OFF
+                  0x004eb6                  _UART1_ON
+                  0x004eec                  _UART1_OUT_count
+                  0x004ede                  _UART1_OUT_push
+                  0x004d90                  _UART1_bd
+                  0x004c78                  _UART1_count
+                  0x004d3a                  _UART1_flowControl
+                  0x004e4c                  _UART1_init
+                  0x004c30                  _UART1_init_fifo
+                  0x004d5e                  _UART1_invert
+                  0x004c4a                  _UART1_is_empty
+                  0x004c5e                  _UART1_is_full
+                  0x004d10                  _UART1_peek
+                  0x004cda                  _UART1_pop
+                  0x004c84                  _UART1_push
+                  0x004d2e                  _UART1_simplexMode
+                  0x0052b8                  _Write_I2C1
+                  0x0003be                  __DefaultInterrupt
+                  0x0003aa                  __MI2C1Interrupt
+                  0x000396                  __SI2C1Interrupt
                   0x0002ec                  __T4Interrupt
                   0x000356                  __U1RXInterrupt
                   0x000314                  __U1TXInterrupt
-                  0x003708                  ___adddf3
-                  0x000446                  ___addsf3
-                  0x000446                  ___addsf3x
-                  0x0032b2                  ___cvt_u
-                  0x0057aa                  ___delay32
-                  0x00379e                  ___divdf3
-                  0x003df0                  ___divdi3
-                  0x000610                  ___divsf3
-                  0x000610                  ___divsf3x
-                  0x0035c6                  ___divsi3
-                  0x0035b2                  ___eqdf2
-                  0x0035ee                  ___extendsfdf2
-                  0x00362c                  ___fixdfsi
-                  0x0003b0                  ___fixunssfsi
-                  0x003ff4                  ___floatdidf
-                  0x004014                  ___floatdisf
-                  0x001cd2                  ___floatscan
-                  0x003684                  ___floatsidf
-                  0x00368a                  ___floatsisf
-                  0x004034                  ___floatundidf
-                  0x000974                  ___floatundisf
-                  0x003690                  ___floatunsidf
-                  0x0003e6                  ___floatunsisf
-                  0x002646                  ___fmt_a
-                  0x002b8a                  ___fmt_d
-                  0x002c3e                  ___fmt_fp
-                  0x0031f4                  ___fmt_o
-                  0x00325e                  ___fmt_s
-                  0x00228a                  ___fmt_state
-                  0x003358                  ___fmt_u
-                  0x0033aa                  ___fmt_x
-                  0x0035bc                  ___gedf2
-                  0x0035bc                  ___gtdf2
-                  0x0035b2                  ___ledf2
-                  0x0035b2                  ___ltdf2
-                  0x003e50                  ___moddi3
-                  0x0038fc                  ___muldf3
-                  0x003eac                  ___muldi3
-                  0x0036f0                  ___mulp32eds3
-                  0x0036f0                  ___mulp32peds3
-                  0x003b3e                  ___mulsf3
-                  0x003b3e                  ___mulsf3x
-                  0x0036f0                  ___mulsi3
-                  0x0035e4                  ___nedf2
-                  0x002210                  ___pad
-                  0x002094                  ___pop_float
-                  0x0020d2                  ___pop_int
-                  0x00217a                  ___pop_ptr
-                  0x00258e                  ___printf_core
-                  0x001f48                  ___shgetc
-                  0x001efe                  ___shlim
-                  0x00355e                  ___stdio_exit
-                  0x003572                  ___stpcpy
-                  0x0036fc                  ___subdf3
-                  0x000434                  ___subsf3
-                  0x000434                  ___subsf3x
-                  0x002642                  ___tolower_l
-                  0x0034f4                  ___toread
-                  0x00353c                  ___toread_needs_stdio_exit
-                  0x003558                  ___toupper_l
-                  0x003694                  ___truncdfsf2
-                  0x003dda                  ___udivdi3
-                  0x003cf4                  ___udivmoddi3
-                  0x000414                  ___udivsi3
-                  0x0025ce                  ___uflow
-                  0x003de8                  ___umoddi3
-                  0x0036ea                  ___umodsi3
-                  0x00408a                  ___umuldi3
-                  0x004126                  __dPropagateNaN
+                  0x00371c                  ___adddf3
+                  0x00045a                  ___addsf3
+                  0x00045a                  ___addsf3x
+                  0x0032c6                  ___cvt_u
+                  0x0057be                  ___delay32
+                  0x0037b2                  ___divdf3
+                  0x003e04                  ___divdi3
+                  0x000624                  ___divsf3
+                  0x000624                  ___divsf3x
+                  0x0035da                  ___divsi3
+                  0x0035c6                  ___eqdf2
+                  0x003602                  ___extendsfdf2
+                  0x003640                  ___fixdfsi
+                  0x0003c4                  ___fixunssfsi
+                  0x004008                  ___floatdidf
+                  0x004028                  ___floatdisf
+                  0x001ce6                  ___floatscan
+                  0x003698                  ___floatsidf
+                  0x00369e                  ___floatsisf
+                  0x004048                  ___floatundidf
+                  0x000988                  ___floatundisf
+                  0x0036a4                  ___floatunsidf
+                  0x0003fa                  ___floatunsisf
+                  0x00265a                  ___fmt_a
+                  0x002b9e                  ___fmt_d
+                  0x002c52                  ___fmt_fp
+                  0x003208                  ___fmt_o
+                  0x003272                  ___fmt_s
+                  0x00229e                  ___fmt_state
+                  0x00336c                  ___fmt_u
+                  0x0033be                  ___fmt_x
+                  0x0035d0                  ___gedf2
+                  0x0035d0                  ___gtdf2
+                  0x0035c6                  ___ledf2
+                  0x0035c6                  ___ltdf2
+                  0x003e64                  ___moddi3
+                  0x003910                  ___muldf3
+                  0x003ec0                  ___muldi3
+                  0x003704                  ___mulp32eds3
+                  0x003704                  ___mulp32peds3
+                  0x003b52                  ___mulsf3
+                  0x003b52                  ___mulsf3x
+                  0x003704                  ___mulsi3
+                  0x0035f8                  ___nedf2
+                  0x002224                  ___pad
+                  0x0020a8                  ___pop_float
+                  0x0020e6                  ___pop_int
+                  0x00218e                  ___pop_ptr
+                  0x0025a2                  ___printf_core
+                  0x001f5c                  ___shgetc
+                  0x001f12                  ___shlim
+                  0x003572                  ___stdio_exit
+                  0x003586                  ___stpcpy
+                  0x003710                  ___subdf3
+                  0x000448                  ___subsf3
+                  0x000448                  ___subsf3x
+                  0x002656                  ___tolower_l
+                  0x003508                  ___toread
+                  0x003550                  ___toread_needs_stdio_exit
+                  0x00356c                  ___toupper_l
+                  0x0036a8                  ___truncdfsf2
+                  0x003dee                  ___udivdi3
+                  0x003d08                  ___udivmoddi3
+                  0x000428                  ___udivsi3
+                  0x0025e2                  ___uflow
+                  0x003dfc                  ___umoddi3
+                  0x0036fe                  ___umodsi3
+                  0x00409e                  ___umuldi3
+                  0x00413a                  __dPropagateNaN
                   0x000252                  __data_init
                   0x000252                  __data_init_standard
-                  0x003efe                  __dcompare
-                  0x0007ce                  __dnrmpackf
-                  0x003b04                  __dnsrnd
-                  0x0040ce                  __dpack
-                  0x003b30                  __dpakex
-                  0x003fe4                  __dreturnNaN
-                  0x003afa                  __drndex
-                  0x003a3e                  __drshft
-                  0x003f50                  __dtype
-                  0x003f74                  __dunpack
-                  0x003fc2                  __dunpack2
-                  0x003fea                  __dunpack2exit
-                  0x003a98                  __dupchk
-                  0x003a30                  __dxchg
-                  0x0009d2                  __fpack
-                  0x0003ea                  __funpack
-                  0x000856                  __propnanf
+                  0x003f12                  __dcompare
+                  0x0007e2                  __dnrmpackf
+                  0x003b18                  __dnsrnd
+                  0x0040e2                  __dpack
+                  0x003b44                  __dpakex
+                  0x003ff8                  __dreturnNaN
+                  0x003b0e                  __drndex
+                  0x003a52                  __drshft
+                  0x003f64                  __dtype
+                  0x003f88                  __dunpack
+                  0x003fd6                  __dunpack2
+                  0x003ffe                  __dunpack2exit
+                  0x003aac                  __dupchk
+                  0x003a44                  __dxchg
+                  0x0009e6                  __fpack
+                  0x0003fe                  __funpack
+                  0x00086a                  __propnanf
                   0x00023c                  __psv_init
                   0x000200                  __resetPRI
-                  0x0007a2                  __sdivf
-                  0x000868                  __spackf
-                  0x000822                  __typef
-                  0x003c4a                  __unpackdnrmf
-                  0x00090e                  __unpackf
-                  0x000a1e                  _atof
-                  0x000a36                  _atoi
-                  0x000a96                  _atol
-                  0x000afe                  _atoll
-                  0x00578e                  _callback
-                  0x004142                  _copysignl
-                  0x005550                  _countBusStreamIn
-                  0x005568                  _countBusStreamOut
-                  0x00572a                  _emicFBe
-                  0x0054da                  _emicFBp
-                  0x0053e4                  _empty_buffer
-                  0x004176                  _fabsl
-                  0x00418c                  _floorl
-                  0x004286                  _fmodl
-                  0x005546                  _getBusStreamIn
-                  0x005784                  _getSystemMilis
-                  0x005754                  _initSystem
-                  0x00530e                  _init_EMICfb
-                  0x005074                  _lux_init
-                  0x0050f6                  _lux_pull
-                  0x005762                  _main
-                  0x0025f8                  _memcpy
-                  0x000b62                  _memset
-                  0x00570c                  _onReset
-                  0x0054f2                  _poll_EMICfb
-                  0x005320                  _poll_fieldBusTransport
-                  0x0045b2                  _scalbnf
-                  0x004606                  _scalbnl
-                  0x00491e                  _sendDataToStream
-                  0x0053a4                  _send_fbTransport
-                  0x005558                  _setBusStreamOut
-                  0x000c2a                  _snprintf
-                  0x00353e                  _strcpy
-                  0x00504a                  _streamCloseReadFrame
-                  0x004674                  _streamIn_Uart1
-                  0x00467c                  _streamIn_fieldBus
-                  0x0048de                  _streamIn_t_ptr_to_ascii
-                  0x0046c0                  _streamIn_t_ptr_to_char
-                  0x004684                  _streamIn_t_ptr_to_float
-                  0x00482a                  _streamIn_t_ptr_to_int16_t
-                  0x004866                  _streamIn_t_ptr_to_int32_t
-                  0x0048a2                  _streamIn_t_ptr_to_int64_t
-                  0x0047ec                  _streamIn_t_ptr_to_int8_t
-                  0x004738                  _streamIn_t_ptr_to_uint16_t
-                  0x004774                  _streamIn_t_ptr_to_uint32_t
-                  0x0047b0                  _streamIn_t_ptr_to_uint64
-                  0x0046fa                  _streamIn_t_ptr_to_uint8_t
-                  0x004fe6                  _streamOpenReadFrame
-                  0x004fa4                  _streamOpenWriteFrame
-                  0x004678                  _streamOut_Uart1
-                  0x004680                  _streamOut_fieldBus
-                  0x004f6c                  _streamPop
-                  0x004f32                  _streamPush
-                  0x004ee4                  _streamPushCtr
-                  0x005032                  _streamReOpenReadFrame
-                  0x002606                  _strlen
-                  0x000c36                  _strncmp
-                  0x000cbe                  _strtod
-                  0x000cb8                  _strtof
-                  0x000cc4                  _strtold
-                  0x0057a0                  _systemTimeInit
-                  0x0057c6                  _timer4_init
-                  0x002636                  _tolower
-                  0x00354c                  _toupper
-                  0x002078                  _vfprintf
-                  0x000cc8                  _vsnprintf
+                  0x0007b6                  __sdivf
+                  0x00087c                  __spackf
+                  0x000836                  __typef
+                  0x003c5e                  __unpackdnrmf
+                  0x000922                  __unpackf
+                  0x000a32                  _atof
+                  0x000a4a                  _atoi
+                  0x000aaa                  _atol
+                  0x000b12                  _atoll
+                  0x0057a2                  _callback
+                  0x004156                  _copysignl
+                  0x005564                  _countBusStreamIn
+                  0x00557c                  _countBusStreamOut
+                  0x00573e                  _emicFBe
+                  0x0054ee                  _emicFBp
+                  0x0053f8                  _empty_buffer
+                  0x00418a                  _fabsl
+                  0x0041a0                  _floorl
+                  0x00429a                  _fmodl
+                  0x00555a                  _getBusStreamIn
+                  0x005798                  _getSystemMilis
+                  0x005768                  _initSystem
+                  0x005322                  _init_EMICfb
+                  0x005088                  _lux_init
+                  0x00510a                  _lux_pull
+                  0x005776                  _main
+                  0x00260c                  _memcpy
+                  0x000b76                  _memset
+                  0x005720                  _onReset
+                  0x005506                  _poll_EMICfb
+                  0x005334                  _poll_fieldBusTransport
+                  0x0045c6                  _scalbnf
+                  0x00461a                  _scalbnl
+                  0x004932                  _sendDataToStream
+                  0x0053b8                  _send_fbTransport
+                  0x00556c                  _setBusStreamOut
+                  0x000c3e                  _snprintf
+                  0x003552                  _strcpy
+                  0x00505e                  _streamCloseReadFrame
+                  0x004688                  _streamIn_Uart1
+                  0x004690                  _streamIn_fieldBus
+                  0x0048f2                  _streamIn_t_ptr_to_ascii
+                  0x0046d4                  _streamIn_t_ptr_to_char
+                  0x004698                  _streamIn_t_ptr_to_float
+                  0x00483e                  _streamIn_t_ptr_to_int16_t
+                  0x00487a                  _streamIn_t_ptr_to_int32_t
+                  0x0048b6                  _streamIn_t_ptr_to_int64_t
+                  0x004800                  _streamIn_t_ptr_to_int8_t
+                  0x00474c                  _streamIn_t_ptr_to_uint16_t
+                  0x004788                  _streamIn_t_ptr_to_uint32_t
+                  0x0047c4                  _streamIn_t_ptr_to_uint64
+                  0x00470e                  _streamIn_t_ptr_to_uint8_t
+                  0x004ffa                  _streamOpenReadFrame
+                  0x004fb8                  _streamOpenWriteFrame
+                  0x00468c                  _streamOut_Uart1
+                  0x004694                  _streamOut_fieldBus
+                  0x004f80                  _streamPop
+                  0x004f46                  _streamPush
+                  0x004ef8                  _streamPushCtr
+                  0x005046                  _streamReOpenReadFrame
+                  0x00261a                  _strlen
+                  0x000c4a                  _strncmp
+                  0x000cd2                  _strtod
+                  0x000ccc                  _strtof
+                  0x000cd8                  _strtold
+                  0x0057b4                  _systemTimeInit
+                  0x0057da                  _timer4_init
+                  0x00264a                  _tolower
+                  0x003560                  _toupper
+                  0x00208c                  _vfprintf
+                  0x000cdc                  _vsnprintf
 
 Memory Configuration
 
@@ -796,7 +796,7 @@ LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libfx-elf.a
                   0x000002          0x2 SHORT 0x0 ((ABSOLUTE (__reset) >> 0x10) & 0x7f)
                   0x000003          0x2 SHORT 0x0
 
-.text             0x000200       0x4466
+.text             0x000200       0x447a
  *(.init)
  .init            0x000200         0x4c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt0_standard.o)
                   0x000200                  __reset
@@ -810,328 +810,328 @@ LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libfx-elf.a
  *(.isr*)
  .isr.text        0x0002ec         0x28 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/timer.o
                   0x0002ec                  __T4Interrupt
- .isr.text        0x000314         0x6e /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/UART1.o
+ .isr.text        0x000314         0x82 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/UART1.o
                   0x000314                  __U1TXInterrupt
                   0x000356                  __U1RXInterrupt
- .isr.text        0x000382         0x28 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/I2C1.o
-                  0x000382                  __SI2C1Interrupt
-                  0x000396                  __MI2C1Interrupt
- .isr             0x0003aa          0x4 default_isr
-                  0x0003aa                  __DefaultInterrupt
+ .isr.text        0x000396         0x28 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/I2C1.o
+                  0x000396                  __SI2C1Interrupt
+                  0x0003aa                  __MI2C1Interrupt
+ .isr             0x0003be          0x4 default_isr
+                  0x0003be                  __DefaultInterrupt
  *(.libc)
  *(.libm)
  *(.libdsp)
  *(.lib*)
  .libpic30_crt_start_mode
-                  0x0003ae          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt_start_mode_normal.Meo)
-                  0x0003ae                  __crt_start_mode_normal
-                  0x0003ae                  __crt_start_mode
+                  0x0003c2          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt_start_mode_normal.Meo)
+                  0x0003c2                  __crt_start_mode_normal
+                  0x0003c2                  __crt_start_mode
  .libm.fixunssfsi
-                  0x0003b0         0x36 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fixunssfsi.XX_o)
-                  0x0003b0                  ___fixunssfsi
+                  0x0003c4         0x36 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fixunssfsi.XX_o)
+                  0x0003c4                  ___fixunssfsi
  .libm.floatunsisf
-                  0x0003e6          0x4 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatunsisf.XX_o)
-                  0x0003e6                  ___floatunsisf
- .libm.funpack    0x0003ea         0x2a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(funpack.XX_o)
-                  0x0003ea                  __funpack
- .libm.udivsi3    0x000414         0x20 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(udivsi3.XX_o)
-                  0x000414                  ___udivsi3
- .libmx           0x000434        0x1dc /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(addsf3x.XX_o)
-                  0x000434                  ___subsf3
-                  0x000434                  ___subsf3x
-                  0x000446                  ___addsf3
-                  0x000446                  ___addsf3x
- .libmx           0x000610        0x1be /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divsf3x.XX_o)
-                  0x000610                  ___divsf3x
-                  0x000610                  ___divsf3
-                  0x0007a2                  __sdivf
- .libmx           0x0007ce         0x54 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dnrmpackfx.XX_o)
-                  0x0007ce                  __dnrmpackf
- .libmx           0x000822         0x34 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(typefx.XX_o)
-                  0x000822                  __typef
- .libmx           0x000856         0x12 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(propnanfx.XX_o)
-                  0x000856                  __propnanf
- .libmx           0x000868         0xa6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(spackfx.XX_o)
-                  0x000868                  __spackf
- .libmx           0x00090e         0x66 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(unpackfx.XX_o)
-                  0x00090e                  __unpackf
+                  0x0003fa          0x4 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatunsisf.XX_o)
+                  0x0003fa                  ___floatunsisf
+ .libm.funpack    0x0003fe         0x2a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(funpack.XX_o)
+                  0x0003fe                  __funpack
+ .libm.udivsi3    0x000428         0x20 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(udivsi3.XX_o)
+                  0x000428                  ___udivsi3
+ .libmx           0x000448        0x1dc /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(addsf3x.XX_o)
+                  0x000448                  ___subsf3
+                  0x000448                  ___subsf3x
+                  0x00045a                  ___addsf3
+                  0x00045a                  ___addsf3x
+ .libmx           0x000624        0x1be /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divsf3x.XX_o)
+                  0x000624                  ___divsf3x
+                  0x000624                  ___divsf3
+                  0x0007b6                  __sdivf
+ .libmx           0x0007e2         0x54 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dnrmpackfx.XX_o)
+                  0x0007e2                  __dnrmpackf
+ .libmx           0x000836         0x34 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(typefx.XX_o)
+                  0x000836                  __typef
+ .libmx           0x00086a         0x12 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(propnanfx.XX_o)
+                  0x00086a                  __propnanf
+ .libmx           0x00087c         0xa6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(spackfx.XX_o)
+                  0x00087c                  __spackf
+ .libmx           0x000922         0x66 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(unpackfx.XX_o)
+                  0x000922                  __unpackf
  .libm.floatundisf
-                  0x000974         0x5e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatundisf.XX_o)
-                  0x000974                  ___floatundisf
- .libm.fpack      0x0009d2         0x4c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fpack.XX_o)
-                  0x0009d2                  __fpack
- .libc.atof       0x000a1e          0x4 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atof.XX_o)
-                  0x000a1e                  _atof
+                  0x000988         0x5e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatundisf.XX_o)
+                  0x000988                  ___floatundisf
+ .libm.fpack      0x0009e6         0x4c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fpack.XX_o)
+                  0x0009e6                  __fpack
+ .libc.atof       0x000a32          0x4 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atof.XX_o)
+                  0x000a32                  _atof
  .libc.__isspace
-                  0x000a22         0x14 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoi.XX_o)
- .libc.atoi       0x000a36         0x4c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoi.XX_o)
-                  0x000a36                  _atoi
+                  0x000a36         0x14 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoi.XX_o)
+ .libc.atoi       0x000a4a         0x4c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoi.XX_o)
+                  0x000a4a                  _atoi
  .libc.__isspace
-                  0x000a82         0x14 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atol.XX_o)
- .libc.atol       0x000a96         0x54 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atol.XX_o)
-                  0x000a96                  _atol
+                  0x000a96         0x14 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atol.XX_o)
+ .libc.atol       0x000aaa         0x54 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atol.XX_o)
+                  0x000aaa                  _atol
  .libc.__isspace
-                  0x000aea         0x14 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoll.XX_o)
- .libc.atoll      0x000afe         0x64 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoll.XX_o)
-                  0x000afe                  _atoll
- .libc.memset     0x000b62         0xc8 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(memset.XX_o)
-                  0x000b62                  _memset
+                  0x000afe         0x14 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoll.XX_o)
+ .libc.atoll      0x000b12         0x64 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoll.XX_o)
+                  0x000b12                  _atoll
+ .libc.memset     0x000b76         0xc8 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(memset.XX_o)
+                  0x000b76                  _memset
  .libc.snprintf
-                  0x000c2a          0xc /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(snprintf.XX_o)
-                  0x000c2a                  _snprintf
- .libc.strncmp    0x000c36         0x2a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strncmp.XX_o)
-                  0x000c36                  _strncmp
- .libc.strtox     0x000c60         0x58 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strtod.XX_o)
- .libc.strtof     0x000cb8          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strtod.XX_o)
-                  0x000cb8                  _strtof_l
-                  0x000cb8                  ___strtof_l
-                  0x000cb8                  _strtof
- .libc.strtod     0x000cbe          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strtod.XX_o)
-                  0x000cbe                  _strtod_l
-                  0x000cbe                  ___strtod_l
-                  0x000cbe                  _strtod
- .libc.strtold    0x000cc4          0x4 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strtod.XX_o)
-                  0x000cc4                  ___strtold_l
-                  0x000cc4                  _strtold_l
-                  0x000cc4                  _strtold
+                  0x000c3e          0xc /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(snprintf.XX_o)
+                  0x000c3e                  _snprintf
+ .libc.strncmp    0x000c4a         0x2a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strncmp.XX_o)
+                  0x000c4a                  _strncmp
+ .libc.strtox     0x000c74         0x58 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strtod.XX_o)
+ .libc.strtof     0x000ccc          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strtod.XX_o)
+                  0x000ccc                  _strtof_l
+                  0x000ccc                  ___strtof_l
+                  0x000ccc                  _strtof
+ .libc.strtod     0x000cd2          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strtod.XX_o)
+                  0x000cd2                  _strtod_l
+                  0x000cd2                  ___strtod_l
+                  0x000cd2                  _strtod
+ .libc.strtold    0x000cd8          0x4 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strtod.XX_o)
+                  0x000cd8                  ___strtold_l
+                  0x000cd8                  _strtold_l
+                  0x000cd8                  _strtold
  .libc.vsnprintf
-                  0x000cc8         0x50 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(vsnprintf.XX_o)
-                  0x000cc8                  _vsnprintf
+                  0x000cdc         0x50 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(vsnprintf.XX_o)
+                  0x000cdc                  _vsnprintf
  .libc.__isspace
-                  0x000d18         0x14 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
- .libc.scanexp    0x000d2c        0x174 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
+                  0x000d2c         0x14 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
+ .libc.scanexp    0x000d40        0x174 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
  .libc.hexfloat
-                  0x000ea0        0x532 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
+                  0x000eb4        0x532 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
  .libc.decfloat
-                  0x0013d2        0x900 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
+                  0x0013e6        0x900 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
  .libc.__floatscan
-                  0x001cd2        0x22c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
-                  0x001cd2                  ___floatscan
- .libc.__shlim    0x001efe         0x4a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(shgetc.XX_o)
-                  0x001efe                  ___shlim
+                  0x001ce6        0x22c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
+                  0x001ce6                  ___floatscan
+ .libc.__shlim    0x001f12         0x4a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(shgetc.XX_o)
+                  0x001f12                  ___shlim
  .libc.__shgetc
-                  0x001f48        0x130 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(shgetc.XX_o)
-                  0x001f48                  ___shgetc
+                  0x001f5c        0x130 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(shgetc.XX_o)
+                  0x001f5c                  ___shgetc
  .libc.vfprintf
-                  0x002078         0x1c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(vfprintf.XX_o)
-                  0x002078                  _vfprintf
+                  0x00208c         0x1c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(vfprintf.XX_o)
+                  0x00208c                  _vfprintf
  .libc.__pop_float
-                  0x002094         0x3e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__pop_float.XX_o)
-                  0x002094                  ___pop_float_needed
-                  0x002094                  ___pop_float
+                  0x0020a8         0x3e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__pop_float.XX_o)
+                  0x0020a8                  ___pop_float_needed
+                  0x0020a8                  ___pop_float
  .libc.__pop_int
-                  0x0020d2         0xa8 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__pop_int.XX_o)
-                  0x0020d2                  ___pop_int_needed
-                  0x0020d2                  ___pop_int
+                  0x0020e6         0xa8 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__pop_int.XX_o)
+                  0x0020e6                  ___pop_int_needed
+                  0x0020e6                  ___pop_int
  .libc.__pop_ptr
-                  0x00217a         0x70 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__pop_ptr.XX_o)
-                  0x00217a                  ___pop_ptr
-                  0x00217a                  ___pop_ptr_needed
+                  0x00218e         0x70 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__pop_ptr.XX_o)
+                  0x00218e                  ___pop_ptr
+                  0x00218e                  ___pop_ptr_needed
  .libc.__string_out
-                  0x0021ea         0x26 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
-                  0x0021ea                  ___out
- .libc.__pad      0x002210         0x74 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
-                  0x002210                  ___pad
+                  0x0021fe         0x26 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
+                  0x0021fe                  ___out
+ .libc.__pad      0x002224         0x74 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
+                  0x002224                  ___pad
  .libc.__dummy_fmt3
-                  0x002284          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
+                  0x002298          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
  .libc.__dummy_fmt4
-                  0x002286          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
+                  0x00229a          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
  .libc.__dummy_fmts
-                  0x002288          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
+                  0x00229c          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
  .libc.__fmt_state
-                  0x00228a         0x2c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
-                  0x00228a                  ___fmt_state
+                  0x00229e         0x2c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
+                  0x00229e                  ___fmt_state
  .libc.vfpfcnvrt.clone.0
-                  0x0022b6        0x2d8 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
+                  0x0022ca        0x2d8 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
  .libc.__printf_core
-                  0x00258e         0x40 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
-                  0x00258e                  ___printf_core
- .libc.__uflow    0x0025ce         0x2a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__uflow.XX_o)
-                  0x0025ce                  ___uflow
- .libc.memcpy     0x0025f8          0xe /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(memcpy.XX_o)
-                  0x0025f8                  _memcpy
- .libc.strlen     0x002606         0x30 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strlen.XX_o)
-                  0x002606                  _strlen
- .libc.tolower    0x002636          0xc /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(tolower.XX_o)
-                  0x002636                  _tolower
+                  0x0025a2         0x40 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__printf_core.XX_o)
+                  0x0025a2                  ___printf_core
+ .libc.__uflow    0x0025e2         0x2a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__uflow.XX_o)
+                  0x0025e2                  ___uflow
+ .libc.memcpy     0x00260c          0xe /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(memcpy.XX_o)
+                  0x00260c                  _memcpy
+ .libc.strlen     0x00261a         0x30 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strlen.XX_o)
+                  0x00261a                  _strlen
+ .libc.tolower    0x00264a          0xc /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(tolower.XX_o)
+                  0x00264a                  _tolower
  .libc.__tolower_l
-                  0x002642          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(tolower.XX_o)
-                  0x002642                  _tolower_l
-                  0x002642                  ___tolower_l
+                  0x002656          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(tolower.XX_o)
+                  0x002656                  _tolower_l
+                  0x002656                  ___tolower_l
  .libc.__LONG_DOUBLE_BITS
-                  0x002644          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_a.XX_o)
- .libc.__fmt_a    0x002646        0x544 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_a.XX_o)
-                  0x002646                  ___fmt_a
-                  0x002646                  ___fmt_a_needed
- .libc.__fmt_d    0x002b8a         0xb2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_d.XX_o)
-                  0x002b8a                  ___fmt_d_needed
-                  0x002b8a                  ___fmt_d
+                  0x002658          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_a.XX_o)
+ .libc.__fmt_a    0x00265a        0x544 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_a.XX_o)
+                  0x00265a                  ___fmt_a
+                  0x00265a                  ___fmt_a_needed
+ .libc.__fmt_d    0x002b9e         0xb2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_d.XX_o)
+                  0x002b9e                  ___fmt_d_needed
+                  0x002b9e                  ___fmt_d
  .libc.__LONG_DOUBLE_BITS
-                  0x002c3c          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_fp.XX_o)
+                  0x002c50          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_fp.XX_o)
  .libc.__fmt_fp
-                  0x002c3e        0x5b6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_fp.XX_o)
-                  0x002c3e                  ___fmt_fp
-                  0x002c3e                  ___fmt_f_needed
- .libc.__fmt_o    0x0031f4         0x6a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_o.XX_o)
-                  0x0031f4                  ___fmt_o_needed
-                  0x0031f4                  ___fmt_o
- .libc.__fmt_s    0x00325e         0x54 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_s.XX_o)
-                  0x00325e                  ___fmt_s
-                  0x00325e                  ___fmt_0_needed
-                  0x00325e                  ___fmt_s_needed
- .libc.__cvt_u    0x0032b2         0xa6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_u.XX_o)
-                  0x0032b2                  ___cvt_u
- .libc.__fmt_u    0x003358         0x52 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_u.XX_o)
-                  0x003358                  ___fmt_u_needed
-                  0x003358                  ___fmt_u
- .libc.__fmt_x    0x0033aa        0x14a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_x.XX_o)
-                  0x0033aa                  ___fmt_x
-                  0x0033aa                  ___fmt_x_needed
+                  0x002c52        0x5b6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_fp.XX_o)
+                  0x002c52                  ___fmt_fp
+                  0x002c52                  ___fmt_f_needed
+ .libc.__fmt_o    0x003208         0x6a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_o.XX_o)
+                  0x003208                  ___fmt_o_needed
+                  0x003208                  ___fmt_o
+ .libc.__fmt_s    0x003272         0x54 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_s.XX_o)
+                  0x003272                  ___fmt_s
+                  0x003272                  ___fmt_0_needed
+                  0x003272                  ___fmt_s_needed
+ .libc.__cvt_u    0x0032c6         0xa6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_u.XX_o)
+                  0x0032c6                  ___cvt_u
+ .libc.__fmt_u    0x00336c         0x52 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_u.XX_o)
+                  0x00336c                  ___fmt_u_needed
+                  0x00336c                  ___fmt_u
+ .libc.__fmt_x    0x0033be        0x14a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__fmt_x.XX_o)
+                  0x0033be                  ___fmt_x
+                  0x0033be                  ___fmt_x_needed
  .libc.__toread
-                  0x0034f4         0x48 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__toread.XX_o)
-                  0x0034f4                  ___toread
+                  0x003508         0x48 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__toread.XX_o)
+                  0x003508                  ___toread
  .libc.__toread_needs_stdio_exit
-                  0x00353c          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__toread.XX_o)
-                  0x00353c                  ___toread_needs_stdio_exit
- .libc.strcpy     0x00353e          0xe /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strcpy.XX_o)
-                  0x00353e                  _strcpy
- .libc.toupper    0x00354c          0xc /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(toupper.XX_o)
-                  0x00354c                  _toupper
+                  0x003550          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__toread.XX_o)
+                  0x003550                  ___toread_needs_stdio_exit
+ .libc.strcpy     0x003552          0xe /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strcpy.XX_o)
+                  0x003552                  _strcpy
+ .libc.toupper    0x003560          0xc /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(toupper.XX_o)
+                  0x003560                  _toupper
  .libc.__toupper_l
-                  0x003558          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(toupper.XX_o)
-                  0x003558                  _toupper_l
-                  0x003558                  ___toupper_l
- .libc.__dummy    0x00355a          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__stdio_exit.XX_o)
-                  0x00355a                  ___stdio_exit_ofl
+                  0x00356c          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(toupper.XX_o)
+                  0x00356c                  _toupper_l
+                  0x00356c                  ___toupper_l
+ .libc.__dummy    0x00356e          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__stdio_exit.XX_o)
+                  0x00356e                  ___stdio_exit_ofl
  .libc.__dummy1
-                  0x00355c          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__stdio_exit.XX_o)
-                  0x00355c                  ___fclose
+                  0x003570          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__stdio_exit.XX_o)
+                  0x003570                  ___fclose
  .libc.__stdio_exit
-                  0x00355e         0x14 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__stdio_exit.XX_o)
-                  0x00355e                  ___stdio_exit
-                  0x00355e                  ___stdio_exit_needed
+                  0x003572         0x14 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(__stdio_exit.XX_o)
+                  0x003572                  ___stdio_exit
+                  0x003572                  ___stdio_exit_needed
  .libc.__stpcpy
-                  0x003572         0x40 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(stpcpy.XX_o)
-                  0x003572                  _stpcpy
-                  0x003572                  ___stpcpy
- .libm.eqdf2      0x0035b2          0xa /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(deqltle.XX_o)
-                  0x0035b2                  ___ledf2
-                  0x0035b2                  ___eqdf2
-                  0x0035b2                  ___ltdf2
- .libm.gtdf2      0x0035bc          0xa /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dgtge.XX_o)
-                  0x0035bc                  ___gedf2
-                  0x0035bc                  ___gtdf2
- .libm.divsi3     0x0035c6         0x1e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divsi3.XX_o)
-                  0x0035c6                  ___divsi3
- .libm.nedf2      0x0035e4          0xa /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dne.XX_o)
-                  0x0035e4                  ___nedf2
+                  0x003586         0x40 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(stpcpy.XX_o)
+                  0x003586                  _stpcpy
+                  0x003586                  ___stpcpy
+ .libm.eqdf2      0x0035c6          0xa /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(deqltle.XX_o)
+                  0x0035c6                  ___ledf2
+                  0x0035c6                  ___eqdf2
+                  0x0035c6                  ___ltdf2
+ .libm.gtdf2      0x0035d0          0xa /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dgtge.XX_o)
+                  0x0035d0                  ___gedf2
+                  0x0035d0                  ___gtdf2
+ .libm.divsi3     0x0035da         0x1e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divsi3.XX_o)
+                  0x0035da                  ___divsi3
+ .libm.nedf2      0x0035f8          0xa /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dne.XX_o)
+                  0x0035f8                  ___nedf2
  .libm.extendsfdf2
-                  0x0035ee         0x3e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(extendsfdf.XX_o)
-                  0x0035ee                  ___extendsfdf2
- .libm.fixdfsi    0x00362c         0x58 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fixdfsi.XX_o)
-                  0x00362c                  _(float, int, long long, double, float, short, int)
+                  0x003602         0x3e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(extendsfdf.XX_o)
+                  0x003602                  ___extendsfdf2
+ .libm.fixdfsi    0x003640         0x58 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fixdfsi.XX_o)
+                  0x003640                  _(float, int, long long, double, float, short, int)
  .libm.floatsidf
-                  0x003684          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatsidf.XX_o)
-                  0x003684                  ___floatsidf
+                  0x003698          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatsidf.XX_o)
+                  0x003698                  ___floatsidf
  .libm.floatsisf
-                  0x00368a          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatsisf.XX_o)
-                  0x00368a                  ___floatsisf
+                  0x00369e          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatsisf.XX_o)
+                  0x00369e                  ___floatsisf
  .libm.floatunsidf
-                  0x003690          0x4 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatunsidf.XX_o)
-                  0x003690                  ___floatunsidf
+                  0x0036a4          0x4 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatunsidf.XX_o)
+                  0x0036a4                  ___floatunsidf
  .libm.truncdfsf2
-                  0x003694         0x56 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(truncdfsf.XX_o)
-                  0x003694                  ___truncdfsf2
- .libm.umodsi3    0x0036ea          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(umodsi3.XX_o)
-                  0x0036ea                  ___umodsi3
- .libm.mulsi3     0x0036f0          0xc /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(mulsi3.XX_o)
-                  0x0036f0                  ___mulp32eds3
-                  0x0036f0                  ___mulp32peds3
-                  0x0036f0                  ___mulsi3
- .lib_dpfops      0x0036fc         0xa2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpadd.XX_o)
-                  0x0036fc                  ___subdf3
-                  0x003708                  ___adddf3
- .lib_dpfops      0x00379e        0x15e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpdiv.XX_o)
-                  0x00379e                  ___divdf3
- .lib_dpfops      0x0038fc        0x11a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpmul.XX_o)
-                  0x0038fc                  ___muldf3
- .lib_dpfops      0x003a16        0x128 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpsubs.XX_o)
-                  0x003a30                  __dxchg
-                  0x003a3e                  __drshft
-                  0x003a98                  __dupchk
-                  0x003afa                  __drndex
-                  0x003b04                  __dnsrnd
-                  0x003b30                  __dpakex
- .libmx           0x003b3e        0x10c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(mulsf3x.XX_o)
-                  0x003b3e                  ___mulsf3
-                  0x003b3e                  ___mulsf3x
- .libmx           0x003c4a         0x5e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(unpackdnrmfx.XX_o)
-                  0x003c4a                  __unpackdnrmf
+                  0x0036a8         0x56 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(truncdfsf.XX_o)
+                  0x0036a8                  ___truncdfsf2
+ .libm.umodsi3    0x0036fe          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(umodsi3.XX_o)
+                  0x0036fe                  ___umodsi3
+ .libm.mulsi3     0x003704          0xc /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(mulsi3.XX_o)
+                  0x003704                  ___mulp32eds3
+                  0x003704                  ___mulp32peds3
+                  0x003704                  ___mulsi3
+ .lib_dpfops      0x003710         0xa2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpadd.XX_o)
+                  0x003710                  ___subdf3
+                  0x00371c                  ___adddf3
+ .lib_dpfops      0x0037b2        0x15e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpdiv.XX_o)
+                  0x0037b2                  ___divdf3
+ .lib_dpfops      0x003910        0x11a /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpmul.XX_o)
+                  0x003910                  ___muldf3
+ .lib_dpfops      0x003a2a        0x128 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpsubs.XX_o)
+                  0x003a44                  __dxchg
+                  0x003a52                  __drshft
+                  0x003aac                  __dupchk
+                  0x003b0e                  __drndex
+                  0x003b18                  __dnsrnd
+                  0x003b44                  __dpakex
+ .libmx           0x003b52        0x10c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(mulsf3x.XX_o)
+                  0x003b52                  ___mulsf3
+                  0x003b52                  ___mulsf3x
+ .libmx           0x003c5e         0x5e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(unpackdnrmfx.XX_o)
+                  0x003c5e                  __unpackdnrmf
  .libm.__PplusBdi
-                  0x003ca8         0x26 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x003cbc         0x26 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
  .libm.__PminusBdi
-                  0x003cce         0x26 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x003ce2         0x26 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
  .libm.__udivmoddi3
-                  0x003cf4         0xe6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
-                  0x003cf4                  ___udivmoddi3
+                  0x003d08         0xe6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x003d08                  ___udivmoddi3
  .libm.__udivdi3
-                  0x003dda          0xe /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
-                  0x003dda                  ___udivdi3
+                  0x003dee          0xe /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x003dee                  ___udivdi3
  .libm.__umoddi3
-                  0x003de8          0x8 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
-                  0x003de8                  ___umoddi3
+                  0x003dfc          0x8 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x003dfc                  ___umoddi3
  .libm.__divdi3
-                  0x003df0         0x60 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
-                  0x003df0                  ___divdi3
+                  0x003e04         0x60 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x003e04                  ___divdi3
  .libm.__moddi3
-                  0x003e50         0x5c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
-                  0x003e50                  ___moddi3
+                  0x003e64         0x5c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divmoddi3.XX_o)
+                  0x003e64                  ___moddi3
  .libm.__muldi3
-                  0x003eac         0x52 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(muldi3.XX_o)
-                  0x003eac                  ___muldi3
+                  0x003ec0         0x52 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(muldi3.XX_o)
+                  0x003ec0                  ___muldi3
  .libm.dcompare
-                  0x003efe         0x52 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dcompare.XX_o)
-                  0x003efe                  __dcompare
- .libm.dtype      0x003f50         0x24 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dtype.XX_o)
-                  0x003f50                  __dtype
- .libm.dunpack    0x003f74         0x4e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dunpack.XX_o)
-                  0x003f74                  __dunpack
+                  0x003f12         0x52 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dcompare.XX_o)
+                  0x003f12                  __dcompare
+ .libm.dtype      0x003f64         0x24 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dtype.XX_o)
+                  0x003f64                  __dtype
+ .libm.dunpack    0x003f88         0x4e /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dunpack.XX_o)
+                  0x003f88                  __dunpack
  .libm.dunpack2
-                  0x003fc2         0x32 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dunpack2.XX_o)
-                  0x003fc2                  __dunpack2
-                  0x003fe4                  __dreturnNaN
-                  0x003fea                  __dunpack2exit
+                  0x003fd6         0x32 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dunpack2.XX_o)
+                  0x003fd6                  __dunpack2
+                  0x003ff8                  __dreturnNaN
+                  0x003ffe                  __dunpack2exit
  .libm.floatdidf
-                  0x003ff4         0x20 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatdidf.XX_o)
-                  0x003ff4                  ___floatdidf
+                  0x004008         0x20 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatdidf.XX_o)
+                  0x004008                  ___floatdidf
  .libm.floatdisf
-                  0x004014         0x20 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatdisf.XX_o)
-                  0x004014                  ___floatdisf
+                  0x004028         0x20 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatdisf.XX_o)
+                  0x004028                  ___floatdisf
  .libm.floatundidf
-                  0x004034         0x56 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatundidf.XX_o)
-                  0x004034                  ___floatundidf
- .libm.umuldi3    0x00408a         0x44 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(umuldi3.XX_o)
-                  0x00408a                  ___umuldi3
- .libm.dpack      0x0040ce         0x58 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpack.XX_o)
-                  0x0040ce                  __dpack
+                  0x004048         0x56 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatundidf.XX_o)
+                  0x004048                  ___floatundidf
+ .libm.umuldi3    0x00409e         0x44 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(umuldi3.XX_o)
+                  0x00409e                  ___umuldi3
+ .libm.dpack      0x0040e2         0x58 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpack.XX_o)
+                  0x0040e2                  __dpack
  .libm.dPropagateNaN
-                  0x004126         0x1c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpropagateNaN.XX_o)
-                  0x004126                  __dPropagateNaN
+                  0x00413a         0x1c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dpropagateNaN.XX_o)
+                  0x00413a                  __dPropagateNaN
  .libc.copysignl
-                  0x004142         0x34 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(copysignl.XX_o)
-                  0x004142                  _copysignl
- .libc.fabsl      0x004176         0x16 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(fabsl.XX_o)
-                  0x004176                  _fabsl
- .libc.floorl     0x00418c         0xf8 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(floorl.XX_o)
-                  0x00418c                  _floorl
+                  0x004156         0x34 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(copysignl.XX_o)
+                  0x004156                  _copysignl
+ .libc.fabsl      0x00418a         0x16 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(fabsl.XX_o)
+                  0x00418a                  _fabsl
+ .libc.floorl     0x0041a0         0xf8 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(floorl.XX_o)
+                  0x0041a0                  _floorl
  .libc.__LONG_DOUBLE_BITS
-                  0x004284          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(fmodl.XX_o)
- .libc.fmodl      0x004286        0x32c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(fmodl.XX_o)
-                  0x004286                  _fmodl
- .libc.scalbnf    0x0045b2         0x54 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(scalbnf.XX_o)
-                  0x0045b2                  _scalbnf
- .libc.scalbnl    0x004606         0x60 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(scalbnl.XX_o)
-                  0x004606                  _scalbnl
+                  0x004298          0x2 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(fmodl.XX_o)
+ .libc.fmodl      0x00429a        0x32c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(fmodl.XX_o)
+                  0x00429a                  _fmodl
+ .libc.scalbnf    0x0045c6         0x54 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(scalbnf.XX_o)
+                  0x0045c6                  _scalbnf
+ .libc.scalbnl    0x00461a         0x60 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a(scalbnl.XX_o)
+                  0x00461a                  _scalbnl
 
 usercode
  *(usercode)
@@ -2240,119 +2240,119 @@ __xc_reference_data
 .config_IESO      0x00abfc          0x2
  .config_IESO     0x00abfc          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/main.o
 
-.const              0xc666         0x1e load address 0x004666  
- .const             0xc666          0xe /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/userFncFile.o
- .const             0xc674          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/UART1.o
-                    0xc674                  _streamIn_Uart1
-                    0xc678                  _streamOut_Uart1
- .const             0xc67c          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/EmicFieldBus.o
-                    0xc67c                  _streamIn_fieldBus
-                    0xc680                  _streamOut_fieldBus
+.const              0xc67a         0x1e load address 0x00467a  
+ .const             0xc67a          0xe /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/userFncFile.o
+ .const             0xc688          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/UART1.o
+                    0xc688                  _streamIn_Uart1
+                    0xc68c                  _streamOut_Uart1
+ .const             0xc690          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/EmicFieldBus.o
+                    0xc690                  _streamIn_fieldBus
+                    0xc694                  _streamOut_fieldBus
 
-.text             0x004684        0xd72
- .text            0x004684        0x598 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/streamIn.o
-                  0x004684                  _streamIn_t_ptr_to_float
-                  0x0046c0                  _streamIn_t_ptr_to_char
-                  0x0046fa                  _streamIn_t_ptr_to_uint8_t
-                  0x004738                  _streamIn_t_ptr_to_uint16_t
-                  0x004774                  _streamIn_t_ptr_to_uint32_t
-                  0x0047b0                  _streamIn_t_ptr_to_uint64
-                  0x0047ec                  _streamIn_t_ptr_to_int8_t
-                  0x00482a                  _streamIn_t_ptr_to_int16_t
-                  0x004866                  _streamIn_t_ptr_to_int32_t
-                  0x0048a2                  _streamIn_t_ptr_to_int64_t
-                  0x0048de                  _streamIn_t_ptr_to_ascii
-                  0x00491e                  _sendDataToStream
- .text            0x004c1c        0x2c8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/UART1.o
-                  0x004c1c                  _UART1_init_fifo
-                  0x004c36                  _UART1_is_empty
-                  0x004c4a                  _UART1_is_full
-                  0x004c64                  _UART1_count
-                  0x004c70                  _UART1_push
-                  0x004cc6                  _UART1_pop
-                  0x004cfc                  _UART1_peek
-                  0x004d1a                  _UART1_simplexMode
-                  0x004d26                  _UART1_flowControl
-                  0x004d4a                  _UART1_invert
-                  0x004d7c                  _UART1_bd
-                  0x004e38                  _UART1_init
-                  0x004e94                  _UART1_OFF
-                  0x004ea2                  _UART1_ON
-                  0x004eb8                  _UART1_IN_pop
-                  0x004ec2                  _UART1_IN_count
-                  0x004eca                  _UART1_OUT_push
-                  0x004ed8                  _UART1_OUT_count
- .text            0x004ee4        0x190 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/stream.o
-                  0x004ee4                  _streamPushCtr
-                  0x004f32                  _streamPush
-                  0x004f6c                  _streamPop
-                  0x004fa4                  _streamOpenWriteFrame
-                  0x004fe6                  _streamOpenReadFrame
-                  0x005032                  _streamReOpenReadFrame
-                  0x00504a                  _streamCloseReadFrame
- .text            0x005074        0x14c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/BH1750.o
-                  0x005074                  _lux_init
-                  0x0050f6                  _lux_pull
- .text            0x0051c0        0x134 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/I2C1.o
-                  0x0051c0                  _Init_Master_I2C1
-                  0x005228                  _CollisionReset_I2C1
-                  0x005230                  _OverflowReset_I2C1
-                  0x005238                  _IsStartI2c1
-                  0x005244                  _IsCollisionDetectI2c1
-                  0x005250                  _IsStopI2c1
-                  0x00525c                  _IsReceiveBufferFullI2c1
-                  0x005268                  _IsDataOrAddressI2c1
-                  0x005274                  _IsReceiveOverflowI2c1
-                  0x005280                  _Start_I2C1
-                  0x005292                  _Stop_I2C1
-                  0x0052a4                  _Write_I2C1
-                  0x0052bc                  _Read_I2C1
- .text            0x0052f4        0x102 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/Transport.o
-                  0x0052f4                  _Transport_rx_callback
-                  0x00530e                  _init_EMICfb
-                  0x005320                  _poll_fieldBusTransport
-                  0x0053a4                  _send_fbTransport
-                  0x0053e4                  _empty_buffer
+.text             0x004698        0xd72
+ .text            0x004698        0x598 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/streamIn.o
+                  0x004698                  _streamIn_t_ptr_to_float
+                  0x0046d4                  _streamIn_t_ptr_to_char
+                  0x00470e                  _streamIn_t_ptr_to_uint8_t
+                  0x00474c                  _streamIn_t_ptr_to_uint16_t
+                  0x004788                  _streamIn_t_ptr_to_uint32_t
+                  0x0047c4                  _streamIn_t_ptr_to_uint64
+                  0x004800                  _streamIn_t_ptr_to_int8_t
+                  0x00483e                  _streamIn_t_ptr_to_int16_t
+                  0x00487a                  _streamIn_t_ptr_to_int32_t
+                  0x0048b6                  _streamIn_t_ptr_to_int64_t
+                  0x0048f2                  _streamIn_t_ptr_to_ascii
+                  0x004932                  _sendDataToStream
+ .text            0x004c30        0x2c8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/UART1.o
+                  0x004c30                  _UART1_init_fifo
+                  0x004c4a                  _UART1_is_empty
+                  0x004c5e                  _UART1_is_full
+                  0x004c78                  _UART1_count
+                  0x004c84                  _UART1_push
+                  0x004cda                  _UART1_pop
+                  0x004d10                  _UART1_peek
+                  0x004d2e                  _UART1_simplexMode
+                  0x004d3a                  _UART1_flowControl
+                  0x004d5e                  _UART1_invert
+                  0x004d90                  _UART1_bd
+                  0x004e4c                  _UART1_init
+                  0x004ea8                  _UART1_OFF
+                  0x004eb6                  _UART1_ON
+                  0x004ecc                  _UART1_IN_pop
+                  0x004ed6                  _UART1_IN_count
+                  0x004ede                  _UART1_OUT_push
+                  0x004eec                  _UART1_OUT_count
+ .text            0x004ef8        0x190 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/stream.o
+                  0x004ef8                  _streamPushCtr
+                  0x004f46                  _streamPush
+                  0x004f80                  _streamPop
+                  0x004fb8                  _streamOpenWriteFrame
+                  0x004ffa                  _streamOpenReadFrame
+                  0x005046                  _streamReOpenReadFrame
+                  0x00505e                  _streamCloseReadFrame
+ .text            0x005088        0x14c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/BH1750.o
+                  0x005088                  _lux_init
+                  0x00510a                  _lux_pull
+ .text            0x0051d4        0x134 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/I2C1.o
+                  0x0051d4                  _Init_Master_I2C1
+                  0x00523c                  _CollisionReset_I2C1
+                  0x005244                  _OverflowReset_I2C1
+                  0x00524c                  _IsStartI2c1
+                  0x005258                  _IsCollisionDetectI2c1
+                  0x005264                  _IsStopI2c1
+                  0x005270                  _IsReceiveBufferFullI2c1
+                  0x00527c                  _IsDataOrAddressI2c1
+                  0x005288                  _IsReceiveOverflowI2c1
+                  0x005294                  _Start_I2C1
+                  0x0052a6                  _Stop_I2C1
+                  0x0052b8                  _Write_I2C1
+                  0x0052d0                  _Read_I2C1
+ .text            0x005308        0x102 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/Transport.o
+                  0x005308                  _ISR_UART1_CALLBACK
+                  0x005322                  _init_EMICfb
+                  0x005334                  _poll_fieldBusTransport
+                  0x0053b8                  _send_fbTransport
+                  0x0053f8                  _empty_buffer
 
-.dinit            0x0053f6         0xe4
- .dinit           0x0053f6         0xe4 data_init
+.dinit            0x00540a         0xe4
+ .dinit           0x00540a         0xe4 data_init
 
-.text             0x0054da        0x2d0
- .text            0x0054da         0x96 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/EmicFieldBus.o
-                  0x0054da                  _emicFBp
-                  0x0054f2                  _poll_EMICfb
-                  0x005546                  _getBusStreamIn
-                  0x005550                  _countBusStreamIn
-                  0x005558                  _setBusStreamOut
-                  0x005568                  _countBusStreamOut
- .text            0x005570         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/led_Led1.o
-                  0x005570                  _LEDs_Led1_init
-                  0x005578                  _LEDs_Led1_blink
-                  0x005598                  _LEDs_Led1_poll
- .text            0x0055f6         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/led_Led2.o
-                  0x0055f6                  _LEDs_Led2_init
-                  0x0055fe                  _LEDs_Led2_blink
-                  0x00561e                  _LEDs_Led2_poll
- .text            0x00567c         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/led_Led3.o
-                  0x00567c                  _LEDs_Led3_init
-                  0x005684                  _LEDs_Led3_blink
-                  0x0056a4                  _LEDs_Led3_poll
- .text            0x005702         0x52 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/userFncFile.o
-                  0x005702                  _SystemConfig
-                  0x00570c                  _onReset
-                  0x00572a                  _emicFBe
- .text            0x005754         0x30 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/main.o
-                  0x005754                  _initSystem
-                  0x005762                  _main
- .text            0x005784         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/systemTimer.o
-                  0x005784                  _getSystemMilis
-                  0x00578e                  _callback
-                  0x0057a0                  _systemTimeInit
+.text             0x0054ee        0x2d0
+ .text            0x0054ee         0x96 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/EmicFieldBus.o
+                  0x0054ee                  _emicFBp
+                  0x005506                  _poll_EMICfb
+                  0x00555a                  _getBusStreamIn
+                  0x005564                  _countBusStreamIn
+                  0x00556c                  _setBusStreamOut
+                  0x00557c                  _countBusStreamOut
+ .text            0x005584         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/led_Led1.o
+                  0x005584                  _LEDs_Led1_init
+                  0x00558c                  _LEDs_Led1_blink
+                  0x0055ac                  _LEDs_Led1_poll
+ .text            0x00560a         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/led_Led2.o
+                  0x00560a                  _LEDs_Led2_init
+                  0x005612                  _LEDs_Led2_blink
+                  0x005632                  _LEDs_Led2_poll
+ .text            0x005690         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/led_Led3.o
+                  0x005690                  _LEDs_Led3_init
+                  0x005698                  _LEDs_Led3_blink
+                  0x0056b8                  _LEDs_Led3_poll
+ .text            0x005716         0x52 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/userFncFile.o
+                  0x005716                  _SystemConfig
+                  0x005720                  _onReset
+                  0x00573e                  _emicFBe
+ .text            0x005768         0x30 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/main.o
+                  0x005768                  _initSystem
+                  0x005776                  _main
+ .text            0x005798         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/systemTimer.o
+                  0x005798                  _getSystemMilis
+                  0x0057a2                  _callback
+                  0x0057b4                  _systemTimeInit
 
-.init.delay32     0x0057aa         0x1c
- .init.delay32    0x0057aa         0x1c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(delay32.Meo)
-                  0x0057aa                  ___delay32
+.init.delay32     0x0057be         0x1c
+ .init.delay32    0x0057be         0x1c /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(delay32.Meo)
+                  0x0057be                  ___delay32
 
-.text             0x0057c6         0x16
- .text            0x0057c6         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/timer.o
-                  0x0057c6                  _timer4_init
+.text             0x0057da         0x16
+ .text            0x0057da         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HDR_E-CRYS-B_LUX_1/build/default/production/timer.o
+                  0x0057da                  _timer4_init
