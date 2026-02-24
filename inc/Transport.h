@@ -12,7 +12,6 @@
 // UART RX callback for frame detection (PIC24 UART V4 requires callback)
 #define UART1_CALLBACK_RX
 #define ISR_UART1_CALLBACK Transport_rx_callback
-void Transport_rx_callback(char d);
 
 extern uint16_t Transport_frame_count;
 
