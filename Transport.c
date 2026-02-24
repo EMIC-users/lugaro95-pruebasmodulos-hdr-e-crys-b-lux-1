@@ -54,6 +54,7 @@ uint8_t received_ID = 0;
 uint8_t My_ID;
 
 // UART RX callback: pushes received bytes to FIFO and detects frames
+void ISR_UART1_CALLBACK(char d)
 {
 	UART1_push(&UART1_IN_fifo, d);
 	if (d == FrameLf)
