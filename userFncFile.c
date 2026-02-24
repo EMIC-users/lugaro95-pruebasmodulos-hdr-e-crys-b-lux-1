@@ -13,6 +13,12 @@
 #include "inc/BH1750.h"
 #include "inc/LUX.h"
 
+void SystemConfig()
+{
+    My_ID = 1;
+}
+
+
 void onReset()
 {
     LEDs_Led1_blink(125, 250, 3);
